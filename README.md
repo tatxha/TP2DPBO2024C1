@@ -17,6 +17,7 @@ NIM bersifat **unik**, maka dari itu setiap data harus memiliki NIM yang berbeda
 
 ## Alur Program
 Saat menjalankan program, akan muncul window baru seperti berikut:
+
 <img width="441" alt="image" src="https://github.com/tatxha/TP2DPBO2024C1/assets/134766457/bdc849b4-5ce5-4015-baee-8db7469b3280">
 
 Pada program terdapat 4 action yaitu:
