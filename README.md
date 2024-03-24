@@ -16,16 +16,15 @@ Didalam class **Mahasiswa** memiliki 4 Atribut, yaitu :
 NIM bersifat **unik**, maka dari itu setiap data harus memiliki NIM yang berbeda. Jenis Kelamin dan Program Studi berbentuk ``ComboBox`` atau ``Drop Down``. Jenis Kelamin memiliki 2 pilihan Perempuan atau Laki-laki. Sedangkan untuk Program Studi juga memiliki 2 pilihan yaitu Ilmu Komputer atau Pendidikan Ilmu Komputer.
 
 ## Alur Program
-- Pertama mengisi data `Car` secara statis pada file main.cpp
-- Lalu, mengisi data `MotorCycle` juga secara statis
-- Data Car dan MotorCycle dimasukkan ke dalam vector list_kendaraan
-- Lalu, mengisi data `ParkingLot` dan memilih list_kendaraan mana yang akan berada di parking lot tersebut
-- Tampilkan data secara keseluruhan dan lengkap agar dapat mengetahui data data kendaraan apa saja yang ada pada setiap parking lot
+Saat menjalankan program, akan muncul window baru seperti berikut:
+<img width="441" alt="image" src="https://github.com/tatxha/TP2DPBO2024C1/assets/134766457/bdc849b4-5ce5-4015-baee-8db7469b3280">
 
-## Dokumentasi 
-
-### Dokumentasi Python
-<img width="370" alt="Screenshot 2024-03-06 194420" src="https://github.com/tatxha/-LP4DPBO2024C1/assets/134766457/8286da26-9adb-492b-b1ef-2b1518b2320e">
-
-### Dokumentasi CPP
-<img width="485" alt="Screenshot 2024-03-06 194329" src="https://github.com/tatxha/-LP4DPBO2024C1/assets/134766457/2e6c5336-6650-4605-afc2-1dd5b116d2a0">
+Pada program terdapat 4 action yaitu:
+1. `Add` :
+   Untuk menambahkan data, kita perlu mengisi field yang kosong. Perlu diketahui bahwasanya NIM yang diinput tidak dapat sama dengan NIM yang sudah ada pada data sebelumnya. Dan juga, pastikan bahwa semua field sudah terisi (tidak ada field kosong). Setelah menambahkan data, data yang baru ditambahkan akan muncul pada tabel.
+3. `Update` :
+   Untuk mengubah data yang sudah ada, kita perlu memilih data mana yang akan diubah. Lalu klik tombol `Update` dan kita hanya perlu menggantikan data yang ingin di ubah yang ada pada field. Pastikan jika field tidak ada yang kosong juga.
+5. `Delete` :
+   Untuk mengubah data yang sudah ada, kita perlu memilih data mana yang akan diubah. Lalu klik tombol `Delete` dan data akan berhasil dihapus.
+7. `Cancel` :
+   Tombol untuk membatalkan jika tidak ingin menambahkan atau mengubah suatu data.
